@@ -15,9 +15,9 @@
 
 body {
     height: 100vh;
-    
 }
-header{
+
+header {
     padding-right: 35px;
 }
 
@@ -36,16 +36,26 @@ header, .menu>.tutu {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
+    align-items: center;
+    height: 25vh;
+    padding-right: 150px;
+    
 }
 
 section {
     height: 65vh;
+}
+
+h3 {
+    padding-left: 40px;
+    font-weight: bold;
 }
 
 .uf {
