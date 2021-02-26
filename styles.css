@@ -1,0 +1,84 @@
+@media screen and (max-width: 700) {
+    body {
+        width: auto;
+        height: 100vh
+    }
+    header {
+        width: 100vh;
+        padding-right: 35px;
+    }
+    .titi {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+body {
+    height: 100vh;
+    
+}
+header{
+    padding-right: 35px;
+}
+
+header, .menu>.tutu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lili {
+    margin-right: 30px;
+}
+
+.activity {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+section {
+    height: 65vh;
+}
+
+.uf {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.inscription {
+    display: flex;
+    align-items: center;
+}
+
+.titi {
+    display: flex;
+}
+
+.menu {
+    width: 50vh;
+    margin-top: 7px;
+}
+
+.tutu {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 90px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.script {
+    color: #0065FC;
+    font-weight: bold;
+}
