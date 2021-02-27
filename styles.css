@@ -46,7 +46,10 @@ footer {
     align-items: center;
     height: 25vh;
     padding-right: 150px;
-    
+}
+
+q {
+    list-style-type: none;
 }
 
 section {
@@ -91,4 +94,24 @@ ul {
 .script {
     color: #0065FC;
     font-weight: bold;
+}
+
+.search2 {
+    background-color: blue;
+    color: white;
+    size: 100px;
+}
+
+#curseur {
+    height: 55vh;
+    display: flex;
+    order: -2;
+}
+
+form {
+    padding-top: 18px;
+}
+
+.form {
+    display: flex;
 }
