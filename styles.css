@@ -1,7 +1,6 @@
 @media screen and (max-width: 700) {
     body {
         width: auto;
-        height: 100vh
     }
     header {
         width: 100vh;
@@ -11,10 +10,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-}
-
-body {
-    height: 100vh;
 }
 
 header {
@@ -52,8 +47,8 @@ q {
     list-style-type: none;
 }
 
-section {
-    height: 65vh;
+.search {
+    height: 15vh;
 }
 
 h3 {
@@ -82,8 +77,6 @@ h3 {
 }
 
 .tutu {
-    display: flex;
-    justify-content: space-around;
     padding-inline: 90px;
 }
 
@@ -99,19 +92,52 @@ ul {
 .search2 {
     background-color: blue;
     color: white;
-    size: 100px;
+    height: 2rem;
+    border-radius: 0 1.5rem 1.5rem 0;
+    transform: translateX(-3.5px);
+    border: solid blue
 }
 
 #curseur {
     height: 55vh;
-    display: flex;
-    order: -2;
 }
 
-form {
-    padding-top: 18px;
-}
+form {}
 
 .form {
     display: flex;
+}
+
+.form>p {
+    width: 3%;
+}
+
+.city {
+    height: 2rem;
+    border: solid #f2f2f2;
+}
+
+.filters {
+    height: 55vh;
+    display: flex;
+}
+
+.filtersFirst {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.iconMaps {
+    border-radius: 1.5rem 0 0 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.svgMaps {
+    height: 1rem;
+    width: 1rem;
 }
