@@ -40,7 +40,7 @@
         display: flex;
         background-color: #F2F2F2;
         flex-direction: column;
-        transform: translateX(-10px);
+        transform: translateY(200px);
         width: 100;
     }
     h3 {
@@ -64,6 +64,15 @@
         transform: translate(-50px 35px);
         transform: translate(-100px, 40px);
     }
+    .filters{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtersForm{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
 
 @media only screen and (min-width: 900px) {
