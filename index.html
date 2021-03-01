@@ -26,10 +26,13 @@
 
 
     <section class="search">
+        <div class="titleSearch">
 
-        <h1> Trouvez votre hébergement pour des vacances de rêves</h1>
-        <p>En plein centre ville ou en
-            pleine nature</p>
+            <h1> Trouvez votre hébergement pour des vacances de rêves</h1>
+            <p>En plein centre ville ou en
+                pleine nature</p>
+        </div>
+
 
         <div class="form">
             <label for="search" class="iconMaps">
@@ -42,31 +45,60 @@
             </label>
             <form class="traiters" method="post" action="traitement.php">
                 <input class="city" type="search" />
-                <input class="search2" type="submit" value="Rechercher" />
+                <button class="searchButton">
+                    <span class="search-label">Rechercher</span>
+                    <img src="ressources/img/loupe.svg" class="search-icon" alt="search" id="logoSearch">
+                </button>
+
 
             </form>
             </p>
 
         </div>
 
-
     </section>
+
     <section class="filters">
         <h2>Filtres</h2>
-        <div class="filtersFirst">
+        <form class="filtersForm" method="post" action="traitement.php">
 
-            <label for="search" class="finance"><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                    data-icon="money-bill-wave" class="billet" role="img"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                    <path fill="currentColor"
-                        d="M621.16 54.46C582.37 38.19 543.55 32 504.75 32c-123.17-.01-246.33 62.34-369.5 62.34-30.89 0-61.76-3.92-92.65-13.72-3.47-1.1-6.95-1.62-10.35-1.62C15.04 79 0 92.32 0 110.81v317.26c0 12.63 7.23 24.6 18.84 29.46C57.63 473.81 96.45 480 135.25 480c123.17 0 246.34-62.35 369.51-62.35 30.89 0 61.76 3.92 92.65 13.72 3.47 1.1 6.95 1.62 10.35 1.62 17.21 0 32.25-13.32 32.25-31.81V83.93c-.01-12.64-7.24-24.6-18.85-29.47zM48 132.22c20.12 5.04 41.12 7.57 62.72 8.93C104.84 170.54 79 192.69 48 192.69v-60.47zm0 285v-47.78c34.37 0 62.18 27.27 63.71 61.4-22.53-1.81-43.59-6.31-63.71-13.62zM320 352c-44.19 0-80-42.99-80-96 0-53.02 35.82-96 80-96s80 42.98 80 96c0 53.03-35.83 96-80 96zm272 27.78c-17.52-4.39-35.71-6.85-54.32-8.44 5.87-26.08 27.5-45.88 54.32-49.28v57.72zm0-236.11c-30.89-3.91-54.86-29.7-55.81-61.55 19.54 2.17 38.09 6.23 55.81 12.66v48.89z">
-                    </path>
-                </svg></label>
-            
 
-        </div>
+            <button class="ecoButton">
+                <span class="ecoBorder">
+                <img src="ressources/logo/money.svg" class="ticket" alt="logoTicket">
+                </span>
+                <span class="eco">Economique</span>
+            </button>
+            <button class="familyButton">
+                <span class="familyBorder">
+                <img src="ressources/logo/child.svg" class="child" alt="logoFamily">
+                </span>
+                <span class="family">Familial</span>
+            </button>
+            <button class="loveButton">
+                <span class="loveBorder">
+                    <img src="ressources/logo/heart.svg" class="heart" alt="logoFamily">
+                </span>
+                <span class="love">Romantique</span>
+            </button>
+            <button class="petsButton">
+                <span class="dogBorder">
+                    <img src="ressources/logo/dog.svg" class="dog" alt="logoFamily">
+                </span>
+                <span class="pets">Animaux autorisés</span>
+            </button>
+        </form>
     </section>
 
+    <div class="info">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="information"
+            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+                d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+            </path>
+        </svg>
+        <p class="resultSentence">Plus de 500 logement sont disponibles dans cette ville</p>
+    </div>
     <footer>
         <div class="divFooter">
             <h3>A propos</h3>
