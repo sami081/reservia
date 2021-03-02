@@ -7,8 +7,8 @@
         display: flex;
     }
     .titleSearch {
-        width: 35vh;
-        font-size: 0.8em;
+       
+        font-size: 1.3em;
     }
     body {
         font-size: 0.9em;
@@ -67,6 +67,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .search{
+        padding-left: 10px;
+    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -123,7 +126,7 @@ q {
 }
 
 .search {
-    height: 15vh;
+
 }
 
 h3 {
