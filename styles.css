@@ -11,7 +11,9 @@
         font-size: 0.8em;
     }
     body {
-        font-size: 0.9em
+        font-size: 0.9em;
+        padding: 0;
+        margin: 0;
     }
     header {
         width: 100%;
@@ -19,13 +21,13 @@
         flex-wrap: wrap;
     }
     .menu {
-        transform: translateX(-60px);
+        width: 100%;
         border-bottom: groove lightgray;
     }
     .script {
         color: #0065FC;
         font-weight: bold;
-        transform: translate(-100px, -100px);
+        transform: translateX(-10px);
     }
     .activity {
         padding-left: 45px;
@@ -52,12 +54,8 @@
     .logo {
         padding-left: 15px;
     }
-    .inscription {
-        display: flex;
-        align-items: center;
-        transform: translate(-50px 35px);
-        transform: translate(-100px, 40px);
-    }
+   
+    
     .filters {
         display: flex;
         flex-direction: column;
@@ -74,9 +72,7 @@
     }
 }
 
-header {
-    padding-right: 35px;
-}
+
 
 header, .menu>.tutu {
     display: flex;
@@ -102,7 +98,6 @@ footer {
     justify-content: space-between;
     background-color: #F2F2F2;
     align-items: center;
-    padding-right: 150px;
     position: absolute;
     bottom: 0;
     width: 100%
@@ -134,15 +129,14 @@ h3 {
 
 .titi {
     display: flex;
+    width: 100%;
 }
 
 .menu {
     margin-top: 7px;
 }
 
-.tutu {
-    padding-inline: 90px;
-}
+
 
 ul {
     list-style-type: none;
