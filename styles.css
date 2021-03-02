@@ -2,7 +2,6 @@
     .search-label {
         display: none;
     }
-    
     .search-icon {
         height: 1rem;
         display: flex;
@@ -87,7 +86,7 @@
     .divFooterC {
         transform: translateX(-250px);
     }
-    footer{
+    footer {
         position: absolute;
         bottom: 0;
     }
@@ -121,7 +120,6 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    
     width: 100%
 }
 
@@ -401,6 +399,35 @@ header {
     display: flex;
     justify-content: space-between;
 }
-p{
+
+p {
     font-size: 1.3em;
+}
+
+.loveButton:hover {
+    width: 200px;
+    background-color: pink;
+    -webkit-transition: width 2s ease-out, background 0.5s ease;
+    color: red;
+}
+
+.ecoButton:hover {
+    width: 200px;
+    background-color: green;
+    -webkit-transition: width 2s ease-out, background 0.5s ease;
+    color: blue;
+}
+
+.familyButton:hover {
+    width: 200px;
+    background-color: purple;
+    -webkit-transition: width 2s ease-out, background 0.5s ease;
+    color: orangered;
+}
+
+.petsButton:hover {
+    width: 200px;
+    background-color: gray;
+    -webkit-transition: width 2s ease-out, background 0.5s ease;
+    color: yellow;
 }
