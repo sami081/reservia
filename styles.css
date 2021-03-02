@@ -41,6 +41,8 @@
         flex-direction: column;
         transform: translateY(200px);
         width: 100;
+        padding-left: 10px;
+        padding-top: 5px;
     }
     h3 {
         transform: translateX(-30px);
@@ -75,6 +77,12 @@
         transform: translate(380px, -2.5px);
         order: -1;
     }
+    .divFooterB {
+        transform: translateX(-200px);
+    }
+    .divFooterC {
+        transform: translateX(-250px);
+    }
 }
 
 .logo {
@@ -105,7 +113,6 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%
