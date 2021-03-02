@@ -86,10 +86,6 @@
     .divFooterC {
         transform: translateX(-250px);
     }
-    footer {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 .logo {
@@ -430,4 +426,74 @@ p {
     background-color: gray;
     -webkit-transition: width 2s ease-out, background 0.5s ease;
     color: yellow;
+}
+
+.housingSpan>p {
+    font-size: 0.3em;
+}
+
+.housingMarseille {
+    height: 75%;
+    width: 95%;
+}
+
+.housingSpan {
+    border: groove #f2f2f2 ;
+    width: 265px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 17px;
+}
+
+.star {
+    height: 8px;
+}
+
+.starSpan {
+    display: flex;
+}
+
+.star2 {
+    height: 8px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accommodation {
+    border: groove#f2f2f2;
+    background-color: #f2f2f2;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    border: groove #f2f2f2;
+    background-color:#f2f2f2;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.esc {
+    height: 15px;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
