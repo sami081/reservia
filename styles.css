@@ -2,6 +2,10 @@
     .search-label {
         display: none;
     }
+    .housing {
+        display: flex;
+        flex-direction: column;
+    }
     .search-icon {
         height: 1rem;
         display: flex;
@@ -70,6 +74,11 @@
     .search {
         padding-left: 10px;
     }
+    .category {
+        order: -1;
+    }
+    .accommodation {}
+    .category {}
 }
 
 @media only screen and (min-width: 900px) {
@@ -85,6 +94,14 @@
     }
     .divFooterC {
         transform: translateX(-250px);
+    }
+    .category {
+        border-radius: 20px;
+    }
+    .accommodation {
+        border-radius: 20px;
+        margin-right: 30px;
+        background-color: #f2f2f2;
     }
 }
 
@@ -186,7 +203,7 @@ ul {
 .filters {
     display: flex;
     padding-top: 35px;
-    flex-direction: column;
+  
 }
 
 .iconMaps {
@@ -206,7 +223,6 @@ ul {
 
 h2 {
     font-size: 1.5em;
-    margin-right: 25px;
 }
 
 .finance {
@@ -397,34 +413,30 @@ header {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 0.8em;
 }
 
 .loveButton:hover {
-    width: 200px;
+    transform: scale(1.5);
     background-color: pink;
-    -webkit-transition: width 2s ease-out, background 0.5s ease;
     color: red;
 }
 
 .ecoButton:hover {
-    width: 200px;
+    transform: scale(1.1);
     background-color: green;
-    -webkit-transition: width 2s ease-out, background 0.5s ease;
     color: blue;
 }
 
 .familyButton:hover {
-    width: 200px;
+    transform: scale(1.5);
     background-color: purple;
-    -webkit-transition: width 2s ease-out, background 0.5s ease;
     color: orangered;
 }
 
 .petsButton:hover {
-    width: 200px;
+    transform: scale(1.5);
     background-color: gray;
-    -webkit-transition: width 2s ease-out, background 0.5s ease;
     color: yellow;
 }
 
@@ -435,10 +447,11 @@ p {
 .housingMarseille {
     height: 75%;
     width: 95%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .housingSpan {
-    border: groove #f2f2f2 ;
+    background-color: white;
     width: 265px;
     height: 180px;
     display: flex;
@@ -447,6 +460,30 @@ p {
     align-items: center;
     margin: 20px;
     border-radius: 17px;
+    box-shadow: 2px 2px 2rem rgb(163 163 163 / 90%);
+}
+
+.housingSpanBis {
+    background-color: white;
+    height: 120px;
+    display: flex;
+    margin: 20px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 2rem rgb(163 163 163 / 90%);
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.housingMarseilleBis {
+    height: 95%;
+    width: 43%;
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    align-self: center;
+    padding: 3px;
+    font-size: 0.8em;
 }
 
 .star {
@@ -457,24 +494,31 @@ p {
     display: flex;
 }
 
+.starSpanBis {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+}
+
 .star2 {
     height: 8px;
 }
 
+.lolo {}
+
 .result {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .accommodation {
-    border: groove#f2f2f2;
-    background-color: #f2f2f2;
-    margin-right: 30px;
     padding: 10px;
-    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
-.contener {
+.housing {
     display: flex;
     justify-content: space-between;
 }
@@ -482,18 +526,22 @@ p {
 .category {
     display: flex;
     flex-direction: column;
-    border: groove #f2f2f2;
-    background-color:#f2f2f2;
+    background-color: #f2f2f2;
     padding: 10px;
-    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .esc {
     height: 15px;
+    margin-right: 10px;
 }
 
 .titles {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.accommodation>p {
+    font-weight: bold;
 }
