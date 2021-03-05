@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(ressources/font_family/static/Raleway-Black.ttf), url(ressources/font_family/static/Raleway-BlackItalic.ttf), url(ressources/font_family/static/Raleway-Bold.ttf), url(ressources/font_family/static/Raleway-BoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraBold.ttf), url(ressources/font_family/static/Raleway-ExtraBoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraLight.ttf), url(ressources/font_family/static/Raleway-ExtraLightItalic.ttf), url(ressources/font_family/static/Raleway-Italic.ttf), url(ressources/font_family/static/Raleway-Light.ttf), url(ressources/font_family/static/Raleway-LightItalic.ttf), url(ressources/font_family/static/Raleway-Medium.ttf), url(ressources/font_family/static/Raleway-MediumItalic.ttf), url(ressources/font_family/static/Raleway-Regular.ttf), url(ressources/font_family/static/Raleway-SemiBold.ttf), url(ressources/font_family/static/Raleway-SemiBoldItalic.ttf), url(ressources/font_family/static/Raleway-Thin.ttf), url(ressources/font_family/static/Raleway-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media only screen and (max-width: 900px) {
     .search-label {
         display: none;
@@ -17,8 +24,9 @@
         font-size: 0.9em;
         padding: 0;
         margin: 0;
+        font-family: 'Raleway', sans-serif;
     }
-    .titi {
+    .mainMenu {
         width: 100%;
     }
     header {
@@ -29,6 +37,7 @@
     .menu {
         width: 100%;
         border-bottom: groove lightgray;
+        transform: translateX(25px);
     }
     .script {
         color: #0065FC;
@@ -107,7 +116,7 @@
     .search-icon {
         display: none;
     }
-    .titi {
+    .mainMenu {
         transform: translate(380px, -2.5px);
         order: -1;
     }
@@ -147,12 +156,12 @@
     order: -1;
 }
 
-.menu>.tutu {
+.menu>.submenu {
     display: flex;
     justify-content: space-between;
 }
 
-.lili {
+.links {
     margin-right: 30px;
 }
 
@@ -194,7 +203,7 @@ h3 {
     padding-right: 10px;
 }
 
-.titi {
+.mainMenu {
     display: flex;
 }
 
@@ -275,10 +284,7 @@ h2 {
     background-color: blue;
     color: white;
     border-radius: 0 1.5rem 1.5rem 0;
-}
-
-.traiters {
-    display: flex;
+    transform: translateX(-6px);
 }
 
 .ticket {
@@ -387,7 +393,7 @@ h2 {
     font-weight: bolder;
 }
 
-.dogBorder {
+.petsBorder {
     height: 2rem;
     width: 2rem;
     color: blue;
@@ -537,13 +543,9 @@ p {
     margin-bottom: 5px;
 }
 
-}
-
 .star2 {
     height: 8px;
 }
-
-.lolo {}
 
 .result {
     display: flex;
@@ -600,4 +602,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+body {
+    font-family: 'Raleway', 'Arial Narrow Bold', sans-serif;
 }
