@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .search-label {
         display: none;
     }
@@ -37,12 +37,10 @@
     .menu {
         width: 100%;
         border-bottom: groove lightgray;
-        transform: translateX(25px);
     }
     .script {
         color: #0065FC;
         font-weight: bold;
-        transform: translateX(-10px);
     }
     .activity {
         padding-left: 45px;
@@ -51,10 +49,7 @@
         display: flex;
         background-color: #F2F2F2;
         flex-direction: column;
-        transform: translateY(200px);
         width: 100;
-        padding-left: 10px;
-        padding-top: 5px;
     }
     h3 {
         transform: translateX(-30px);
@@ -112,7 +107,7 @@
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 450px) {
     .search-icon {
         display: none;
     }
@@ -158,11 +153,7 @@
 
 .menu>.submenu {
     display: flex;
-    justify-content: space-between;
-}
-
-.links {
-    margin-right: 30px;
+    justify-content: space-around;
 }
 
 .activity {
