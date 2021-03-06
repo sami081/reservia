@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .search-label {
         display: none;
     }
@@ -26,18 +26,13 @@
         margin: 0;
         font-family: 'Raleway', sans-serif;
     }
-    .mainMenu {
-        width: 100%;
-    }
     header {
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
     .menu {
-        width: 100%;
         border-bottom: groove lightgray;
-        transform: translateX(25px);
+        width: 100%;
     }
     .script {
         color: #0065FC;
@@ -52,21 +47,14 @@
         background-color: #F2F2F2;
         flex-direction: column;
         transform: translateY(200px);
-        width: 100;
         padding-left: 10px;
         padding-top: 5px;
-    }
-    h3 {
-        transform: translateX(-30px);
     }
     .mainFooter {
         transform: translateX(-10px);
     }
     .uf {
         transform: translateX(-20px);
-    }
-    .divFooter {
-        width: 100%;
     }
     .logo {
         padding-left: 15px;
@@ -110,13 +98,16 @@
         display: flex;
         flex-direction: column;
     }
+    .main-menu{
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 450px) {
     .search-icon {
         display: none;
     }
-    .mainMenu {
+    .main-menu {
         transform: translate(380px, -2.5px);
         order: -1;
     }
@@ -179,15 +170,9 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    width: 100%
-}
-
-q {
-    list-style-type: none;
 }
 
 h3 {
-    padding-left: 40px;
     font-weight: bold;
 }
 
@@ -203,7 +188,7 @@ h3 {
     padding-right: 10px;
 }
 
-.mainMenu {
+.main-menu {
     display: flex;
 }
 
@@ -251,7 +236,7 @@ ul {
     padding-top: 35px;
 }
 
-.iconMaps {
+#icon-maps {
     border-radius: 1.5rem 0 0 1.5rem;
     height: 2rem;
     width: 2rem;
@@ -606,4 +591,8 @@ p {
 
 body {
     font-family: 'Raleway', 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-size: x-small;
 }

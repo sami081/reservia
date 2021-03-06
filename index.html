@@ -1,318 +1,318 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
-    <title>Réservia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles.css">
+  <title>Réservia</title>
 </head>
 
 <body>
-    <!--en tête-->
-    <header>
-        <div class="logo">
-            <img src="ressources/logo/Reservia@3x.png" alt="logo" id="logo1" />
-        </div>
-        <div class="inscription"><a class="script" href="#">S'inscrire</a></div>
-        <div class="mainMenu">
-            <nav class="menu">
-                <ul class="submenu">
-                    <li class="links"><a href="#accommodations">Hébergements</a></li>
-                    <li class="links"><a class="activity" href="#activities">Activités</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-    </header>
-    <!--fin de l'en tête-->
-
-<!--banniere de recheche-->
-
-    <section class="search">
-        <div class="titleSearch">
-
-            <h1> Trouvez votre hébergement pour des vacances de rêves</h1>
-            <p>En plein centre ville ou en
-                pleine nature</p>
-        </div>
-
-
-        <div class="form">
-            <label for="search" class="iconMaps">
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svgMaps"
-                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                    <path fill="currentColor"
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                    </path>
-                </svg>
-            </label>
-            <form  method="post" action="traitement.php">
-                <input class="city" type="search" />
-                <button class="searchButton">
-                    <span class="search-label">Rechercher</span>
-                    <img src="ressources/img/loupe.svg" class="search-icon" alt="search" id="logoSearch">
-                </button>
-
-
-            </form>
-            </p>
-
-        </div>
-
-    </section>
-<!--fin de la banniere de recherche-->
-
-<!-- banniere des filtres-->
-
-    <section class="filters">
-        <h2>Filtres</h2>
-        <form class="filtersForm" method="post" action="traitement.php">
-
-
-            <button class="ecoButton">
-                <span class="ecoBorder">
-                    <img src="ressources/logo/money.svg" class="ticket" alt="logoTicket">
-                </span>
-                <span class="eco">Economique</span>
-            </button>
-            <button class="familyButton">
-                <span class="familyBorder">
-                    <img src="ressources/logo/child.svg" class="child" alt="logoFamily">
-                </span>
-                <span class="family">Familial</span>
-            </button>
-            <button class="loveButton">
-                <span class="loveBorder">
-                    <img src="ressources/logo/heart.svg" class="heart" alt="logoFamily">
-                </span>
-                <span class="love">Romantique</span>
-            </button>
-            <button class="petsButton">
-                <span class="petsBorder">
-                    <img src="ressources/logo/dog.svg" class="dog" alt="logoFamily">
-                </span>
-                <span class="pets">Animaux autorisés</span>
-            </button>
-        </form>
-
-    </section>
-
-    <!-- fin de la banniere filtres-->
-    <div class="information">
-        <span class="infoBorder">
-            <img src="ressources/logo/info.svg" class="info" alt="logoInfo">
-        </span>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+  <!--en tête-->
+  <header>
+    <div class="logo">
+      <img src="ressources/logo/Reservia@3x.png" alt="logo" id="logo1" />
     </div>
-    <section class="housing">
-        <section class="accommodation">
-            <h2>Hébergements à Marseille</h2>
-            <div class="result">
-                <div class="housingSpan">
-                    <img src="ressources/img/housing1.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Auberge de ma Cannebière</strong><br />Nuit à partir de <strong>25€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpan">
-                    <img src="ressources/img/housing2.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Hôtel du port</strong><br />Nuit à partir de <strong>52€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpan">
-                    <img src="ressources/img/housing3.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Hôtel les mouettes</strong><br />Nuit à partir de <strong>76€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpan">
-                    <img src="ressources/img/housing4.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Hôtel de la mer</strong><br />Nuit à partir de <strong>46€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpan">
-                    <img src="ressources/img/housing5.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Auberge le panier</strong><br />Nuit à partir de <strong>23€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpan">
-                    <img src="ressources/img/housing6.jpg" class="housingMarseille">
-                    <p>
-                        <strong>Hôtel chez Amina</strong><br />Nuit à partir de <strong>96€</strong>
-                    </p>
-                    <span class="starSpan">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
+    <div class="inscription"><a class="script" href="#">S'inscrire</a></div>
+    <div class="main-menu">
+      <nav class="menu">
+        <ul class="submenu">
+          <li class="links"><a href="#accommodations">Hébergements</a></li>
+          <li class="links"><a class="activity" href="#activities">Activités</a></li>
+        </ul>
+      </nav>
 
-                    </span>
-                </div>
+    </div>
 
-            </div>
+  </header>
+  <!--fin de l'en tête-->
 
-            <p>Afficher plus</p>
-        </section>
+  <!--banniere de recheche-->
+
+  <section class="search">
+    <div class="titleSearch">
+
+      <h1> Trouvez votre hébergement pour des vacances de rêves</h1>
+      <p>En plein centre ville ou en
+        pleine nature</p>
+    </div>
 
 
+    <div class="form">
+      <label for="search" id="icon-maps">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svgMaps"
+          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+          <path fill="currentColor"
+            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+          </path>
+        </svg>
+      </label>
+      <form method="post" action="#">
+        <input class="city" type="search" />
+        <button class="searchButton">
+          <span class="search-label">Rechercher</span>
+          <img src="ressources/img/loupe.svg" class="search-icon" alt="search" id="logoSearch">
+        </button>
 
 
-        <aside class="category">
-            <div class="titles">
-                <h2>Les plus populaires</h2>
-                <img src="ressources/logo/esc.svg" class="esc">
-            </div>
-            <div class="lolo">
-                <div class="housingSpanBis">
-                    <img src="ressources/img/housing7.jpg" class="housingMarseilleBis">
-                    <p>
-                        <strong>Hôtel le soleil du matin</strong><br />Nuit à partir de 25€
-                    </p>
-                    <span class="starSpanBis">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpanBis">
-                    <img src="ressources/img/housing8.jpg" class="housingMarseilleBis">
-                    <p>
-                        <strong>Au coeur de l'eau <br />Chambres d'hotes </strong><br />Nuit à partir de 71€
-                    </p>
-                    <span class="starSpanBis">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-                <div class="housingSpanBis">
-                    <img src="ressources/img/housing9.jpg" class="housingMarseilleBis">
-                    <p>
-                        <strong>Hôtel Tout bleu et Blanc</strong><br />Nuit à partir de 66€
-                    </p>
-                    <span class="starSpanBis">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star.svg" class="star">
-                        <img src="ressources/logo/star2.svg" class="star">
-                    </span>
-                </div>
-            </div>
-        </aside>
+      </form>
+
+
+    </div>
+
+  </section>
+  <!--fin de la banniere de recherche-->
+
+  <!-- banniere des filtres-->
+
+  <section class="filters">
+    <h2>Filtres</h2>
+    <form class="filtersForm" method="post" action="#">
+
+
+      <button class="ecoButton">
+        <span class="ecoBorder">
+          <img src="ressources/logo/money.svg" class="ticket" alt="logoTicket">
+        </span>
+        <span class="eco">Economique</span>
+      </button>
+      <button class="familyButton">
+        <span class="familyBorder">
+          <img src="ressources/logo/child.svg" class="child" alt="logoFamily">
+        </span>
+        <span class="family">Familial</span>
+      </button>
+      <button class="loveButton">
+        <span class="loveBorder">
+          <img src="ressources/logo/heart.svg" class="heart" alt="logoFamily">
+        </span>
+        <span class="love">Romantique</span>
+      </button>
+      <button class="petsButton">
+        <span class="petsBorder">
+          <img src="ressources/logo/dog.svg" class="dog" alt="logoFamily">
+        </span>
+        <span class="pets">Animaux autorisés</span>
+      </button>
+    </form>
+
+  </section>
+
+  <!-- fin de la banniere filtres-->
+  <div class="information">
+    <span class="infoBorder">
+      <img src="ressources/logo/info.svg" class="info" alt="logoInfo">
+    </span>
+    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+  </div>
+  <section class="housing">
+    <section class="accommodation">
+      <h2>Hébergements à Marseille</h2>
+      <div class="result">
+        <div class="housingSpan">
+          <img src="ressources/img/housing1.jpg" class="housingMarseille" alt="housing-cannebiere">
+          <h3>Auberge de la cannebière</h3>
+         <p>Nuit à partir de 25€
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="gray-star">
+          </span>
+        </div>
+        <div class="housingSpan">
+          <img src="ressources/img/housing2.jpg" class="housingMarseille" alt="housing-port">
+          <p>
+            <strong>Hôtel du port</strong><br />Nuit à partir de <strong>52€</strong>
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+          </span>
+        </div>
+        <div class="housingSpan">
+          <img src="ressources/img/housing3.jpg" class="housingMarseille" alt="housing-les-mouettes">
+          <p>
+            <strong>Hôtel les mouettes</strong><br />Nuit à partir de <strong>76€</strong>
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="blue-star">
+          </span>
+        </div>
+        <div class="housingSpan">
+          <img src="ressources/img/housing4.jpg" class="housingMarseille" alt="housing-mer" />
+          <p>
+            <strong>Hôtel de la mer</strong><br />Nuit à partir de <strong>46€</strong>
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="gray-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="gray-star">
+          </span>
+        </div>
+        <div class="housingSpan">
+          <img src="ressources/img/housing5.jpg" class="housingMarseille" alt="housing-le-panier">
+          <p>
+            <strong>Auberge le panier</strong><br />Nuit à partir de <strong>23€</strong>
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="gray-star">
+          </span>
+        </div>
+        <div class="housingSpan">
+          <img src="ressources/img/housing6.jpg" class="housingMarseille" alt="housing-amina">
+          <p>
+            <strong>Hôtel chez Amina</strong><br />Nuit à partir de <strong>96€</strong>
+          </p>
+          <span class="starSpan">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+
+          </span>
+        </div>
+
+      </div>
+
+      <p>Afficher plus</p>
     </section>
-    <h2 id="activities">Activité à Marseille</h2>
-    <section class="activitySection">
 
-        <div class="activityMarseille">
-            <img src="ressources/img/Activity1.jpg" class="activityImg">
-            <p><strong>Vieux port</strong></p>
+
+
+
+    <aside class="category">
+      <div class="titles">
+        <h2>Les plus populaires</h2>
+        <img src="ressources/logo/esc.svg" class="esc" alt="logo-exit">
+      </div>
+      <div class="lolo">
+        <div class="housingSpanBis">
+          <img src="ressources/img/housing7.jpg" class="housingMarseilleBis" alt="housing-sun">
+          <p>
+            <strong>Hôtel le soleil du matin</strong><br />Nuit à partir de 25€
+          </p>
+          <span class="starSpanBis">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+          </span>
         </div>
-        <div class="activityMarseilleBis">
-            <div class="act"> <img src="ressources/img/activity2.jpg" class="activityImg2">
-
-                <p><strong>Fort de Pomègues</strong></p>
-            </div>
-            <div class="act"> <img src="ressources/img/activity3.jpg" class="activityImg2">
-
-                <p><strong>Îles du Frioul</strong></p>
-            </div>
-
+        <div class="housingSpanBis">
+          <img src="ressources/img/housing8.jpg" class="housingMarseilleBis" alt="housing-heart">
+          <p>
+            <strong>Au coeur de l'eau <br />Chambres d'hotes </strong><br />Nuit à partir de 71€
+          </p>
+          <span class="starSpanBis">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="gray-star">
+          </span>
         </div>
-        <div class="activityMarseille">
-            <img src="ressources/img/activity4.jpg" class="activityImg">
-            <p><strong>Parc National des Calanques</strong></p>
+        <div class="housingSpanBis">
+          <img src="ressources/img/housing9.jpg" class="housingMarseilleBis" alt="housing-blue-and-white">
+          <p>
+            <strong>Hôtel Tout bleu et Blanc</strong><br />Nuit à partir de 66€
+          </p>
+          <span class="starSpanBis">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star.svg" class="star" alt="blue-star">
+            <img src="ressources/logo/star2.svg" class="star" alt="blue-star">
+          </span>
         </div>
-        <div class="activityMarseilleBis">
-            <div class="act"> <img src="ressources/img/activity5.jpg" class="activityImg2">
+      </div>
+    </aside>
+  </section>
+  <h2 id="activities">Activité à Marseille</h2>
+  <section class="activitySection">
 
-                <p><strong>Fort de Pomègues</strong></p>
-            </div>
-            <div class="act"> <img src="ressources/img/activity6.jpg" class="activityImg2">
+    <div class="activityMarseille">
+      <img src="ressources/img/Activity1.jpg" class="activityImg" alt="activity-vieux-port">
+      <p><strong>Vieux port</strong></p>
+    </div>
+    <div class="activityMarseilleBis">
+      <div class="act"> <img src="ressources/img/activity2.jpg" class="activityImg2" alt="activity-fort-de-pomeges">
 
-                <p><strong>Îles du Frioul</strong></p>
-            </div>
+        <p><strong>Fort de Pomègues</strong></p>
+      </div>
+      <div class="act"> <img src="ressources/img/activity3.jpg" class="activityImg2" alt="activity-iles-du-frioul">
 
-        </div>
-    </section>
+        <p><strong>Îles du Frioul</strong></p>
+      </div>
 
-    <footer>
-        <div class="divFooterA">
-            <h3>A propos</h3>
-            <nav class="mainFooter">
-                <ul class="uf">
-                    <li><a href="Fpnctionnement.html">Fonctionnement du site</a></li>
-                    <li><a href="Condition.html">Conditions générales de ventes</a></li>
-                    <li><a href="Données.html">Données et confidentialité</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="divFooterB">
-            <h3>Nos hébergements</h3>
-            <nav class="mainFooter">
-                <ul class="uf">
-                    <li><a href="charte de qualité.html">Charte qualité</a></li>
-                    <li><a href="votre hotel.html">Soumettre votre hotel</a></li>
+    </div>
+    <div class="activityMarseille">
+      <img src="ressources/img/activity4.jpg" class="activityImg" alt="activity-calanques">
+      <p><strong>Parc National des Calanques</strong></p>
+    </div>
+    <div class="activityMarseilleBis">
+      <div class="act"> <img src="ressources/img/activity5.jpg" class="activityImg2" alt="activity-fort-de-pomègues">
 
-                </ul>
-            </nav>
-        </div>
-        <div class="divFooterC">
-            <h3>Assistance</h3>
-            <nav class="mainFooter">
-                <ul class="uf">
-                    <li><a href="Aide.html">Centre d'aide</a></li>
-                    <li><a href="Contact.html">Nous contacter</a></li>
-                </ul>
-            </nav>
-        </div>
+        <p><strong>Fort de Pomègues</strong></p>
+      </div>
+      <div class="act"> <img src="ressources/img/activity6.jpg" class="activityImg2" alt="activity-iles-frioul">
 
-    </footer>
+        <p><strong>Îles du Frioul</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="divFooterA">
+      <h3>A propos</h3>
+      <nav class="mainFooter">
+        <ul class="uf">
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li><a href="#">Conditions générales de ventes</a></li>
+          <li><a href="#">Données et confidentialité</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="divFooterB">
+      <h3>Nos hébergements</h3>
+      <nav class="mainFooter">
+        <ul class="uf">
+          <li><a href="#">Charte qualité</a></li>
+          <li><a href="#">Soumettre votre hotel</a></li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="divFooterC">
+      <h3>Assistance</h3>
+      <nav class="mainFooter">
+        <ul class="uf">
+          <li><a href="#">Centre d'aide</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </footer>
 </body>
 
 </html>
