@@ -17,7 +17,7 @@
         height: 1rem;
         display: flex;
     }
-    .titleSearch {
+    .title-search {
         font-size: 1.3em;
     }
     body {
@@ -26,7 +26,7 @@
         margin: 0;
         font-family: 'Raleway', sans-serif;
     }
-    .mainMenu {
+    .main-menu {
         width: 100%;
     }
     header {
@@ -54,10 +54,10 @@
     h3 {
         transform: translateX(-30px);
     }
-    .mainFooter {
+    .main-general {
         transform: translateX(-10px);
     }
-    .uf {
+    .sub-main-general {
         transform: translateX(-20px);
     }
     .divFooter {
@@ -71,7 +71,7 @@
         flex-direction: column;
         padding-left: 10px;
     }
-    .filtersForm {
+    .filters-form {
         display: flex;
         flex-wrap: wrap;
     }
@@ -81,27 +81,27 @@
     .category {
         order: -1;
     }
-    .activityMarseilleBis {
+    .activity-marseille-bis {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .activityImg2 {
+    .activity-img-bis {
         width: 350px;
         height: 150px;
         border-radius: 1em 1em 0 0;
     }
-    .activityImg, .activityImg2 {
+    .activity-img, .activity-img-bis {
         width: 365px;
         height: 170px;
         border-radius: 1em 1em 0 0;
     }
-    .act, .activityMarseille {
+    .act, .activity-marseille {
         margin-bottom: 20px;
         border-radius: 17px;
         box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%)
     }
-    .activitySection {
+    .activity-section {
         display: flex;
         flex-direction: column;
     }
@@ -111,14 +111,14 @@
     .search-icon {
         display: none;
     }
-    .mainMenu {
+    .main-menu {
         transform: translate(380px, -2.5px);
         order: -1;
     }
-    .divFooterB {
+    .house {
         transform: translateX(-200px);
     }
-    .divFooterC {
+    .help{
         transform: translateX(-250px);
     }
     .category {
@@ -129,17 +129,17 @@
         margin-right: 30px;
         background-color: #f2f2f2;
     }
-    .activityImg {
+    .activity-img {
         width: 250px;
         height: 350px;
         border-radius: 1em 1em 0 0;
     }
-    .activityMarseille {
+    .activity-marseille {
         border-radius: 7%;
         box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
         margin-bottom: 20px;
     }
-    .activityImg2 {
+    .activity-img-bis {
         width: 300px;
         height: 150px;
         border-radius: 1em 1em 0 0;
@@ -182,7 +182,7 @@ h3 {
     font-weight: bold;
 }
 
-.uf {
+.sub-main-general {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -194,7 +194,7 @@ h3 {
     padding-right: 10px;
 }
 
-.mainMenu {
+.main-menu {
     display: flex;
 }
 
@@ -242,7 +242,7 @@ ul {
     padding-top: 35px;
 }
 
-.iconMaps {
+.icon-maps {
     border-radius: 1.5rem 0 0 1.5rem;
     height: 2rem;
     width: 2rem;
@@ -252,7 +252,7 @@ ul {
     background-color: #f2f2f2ad;
 }
 
-.svgMaps {
+.svg-maps {
     height: 1rem;
     width: 1rem;
 }
@@ -269,7 +269,7 @@ h2 {
     justify-content: center;
 }
 
-.searchButton {
+.search-button {
     height: 2rem;
     border: blue;
     background-color: blue;
@@ -285,7 +285,7 @@ h2 {
     padding-top: 5px;
 }
 
-.ecoButton {
+.economic-button {
     border: solid 2px #d9d9d9;
     border-radius: 5rem;
     height: 2.2rem;
@@ -297,13 +297,13 @@ h2 {
     margin-top: 18px;
 }
 
-.eco {
+.economic {
     display: flex;
     align-self: center;
     font-weight: bolder;
 }
 
-.familyButton {
+.family-button {
     border: solid 2px #d9d9d9;
     border-radius: 5rem;
     height: 2.2rem;
@@ -328,13 +328,13 @@ h2 {
     font-weight: bolder;
 }
 
-.filtersForm {
+.filters-form {
     display: flex;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-.loveButton {
+.love-button {
     border: solid 2px #d9d9d9;
     border-radius: 5rem;
     height: 2.2rem;
@@ -359,7 +359,7 @@ h2 {
     font-weight: bolder;
 }
 
-.petsButton {
+.pets-button {
     border: solid 2px #d9d9d9;
     border-radius: 5rem;
     height: 2.2rem;
@@ -384,7 +384,7 @@ h2 {
     font-weight: bolder;
 }
 
-.petsBorder {
+.pets-border {
     height: 2rem;
     width: 2rem;
     color: blue;
@@ -393,7 +393,7 @@ h2 {
     background-color: #DEEBFF;
 }
 
-.loveBorder {
+.love-border {
     height: 2rem;
     width: 2rem;
     color: blue;
@@ -402,7 +402,7 @@ h2 {
     background-color: #DEEBFF;
 }
 
-.familyBorder {
+.family-border {
     height: 2rem;
     width: 2rem;
     color: blue;
@@ -411,7 +411,7 @@ h2 {
     background-color: #DEEBFF;
 }
 
-.ecoBorder {
+.economic-border {
     height: 2rem;
     width: 2rem;
     color: blue;
@@ -425,7 +425,7 @@ h2 {
     width: 0.8rem;
 }
 
-.infoBorder {
+.information-border {
     height: 1.2rem;
     width: 1.2rem;
     border: solid lightgrey;
@@ -451,41 +451,41 @@ p {
     padding-left: 5px;
 }
 
-.loveButton:hover {
+.love-button:hover {
     transform: scale(1.5);
     background-color: pink;
     color: red;
 }
 
-.ecoButton:hover {
+.economic-button:hover {
     transform: scale(1.1);
     background-color: green;
     color: blue;
 }
 
-.familyButton:hover {
+.family-button:hover {
     transform: scale(1.5);
     background-color: purple;
     color: orangered;
 }
 
-.petsButton:hover {
+.pets-button:hover {
     transform: scale(1.5);
     background-color: gray;
     color: yellow;
 }
 
-.housingSpan>p {
+.housing-span>p {
     font-size: 0.3em;
 }
 
-.housingMarseille {
+.housing-marseille {
     height: 75%;
     width: 95%;
     border-radius: 1rem 1rem 0 0;
 }
 
-.housingSpan {
+.housing-span {
     background-color: white;
     width: 265px;
     height: 180px;
@@ -498,7 +498,7 @@ p {
     box-shadow: 2px 2px 2rem rgb(163 163 163 / 90%);
 }
 
-.housingSpanBis {
+.housing-span-bis {
     background-color: white;
     height: 120px;
     display: flex;
@@ -511,7 +511,7 @@ p {
     padding-right: 25px;
 }
 
-.housingMarseilleBis {
+.housing-marseille-bis {
     height: 95%;
     width: 43%;
     border-radius: 1rem 0 0 1rem;
@@ -525,11 +525,11 @@ p {
     height: 8px;
 }
 
-.starSpan {
+.star-span {
     display: flex;
 }
 
-.starSpanBis {
+.star-span-bis {
     display: flex;
     margin-bottom: 5px;
 }
@@ -583,13 +583,13 @@ p {
     box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%)
 }
 
-.activitySection {
+.activity-section {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
 }
 
-.activityMarseilleBis {
+.activity-marseille-bis {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
