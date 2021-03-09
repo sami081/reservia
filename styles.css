@@ -118,7 +118,7 @@
     .house {
         transform: translateX(-200px);
     }
-    .help{
+    .help {
         transform: translateX(-250px);
     }
     .category {
@@ -278,11 +278,10 @@ h2 {
     transform: translateX(-6px);
 }
 
-.ticket {
+.icon {
     height: 1rem;
     width: 1rem;
     color: blue;
-    padding-top: 5px;
 }
 
 .economic-button {
@@ -315,13 +314,6 @@ h2 {
     margin-top: 18px;
 }
 
-.child {
-    height: 1rem;
-    width: 1rem;
-    color: blue;
-    padding-top: 5px;
-}
-
 .family {
     display: flex;
     align-self: center;
@@ -346,13 +338,6 @@ h2 {
     margin-top: 18px;
 }
 
-.heart {
-    height: 1rem;
-    width: 1rem;
-    color: blue;
-    padding-top: 5px;
-}
-
 .love {
     display: flex;
     align-self: center;
@@ -372,52 +357,22 @@ h2 {
     margin-top: 18px;
 }
 
-.dog {
-    height: 1rem;
-    width: 1rem;
-    padding-top: 5px;
-}
-
 .pets {
     display: flex;
     align-self: center;
     font-weight: bolder;
 }
 
-.pets-border {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.3px);
-    background-color: #DEEBFF;
-}
-
-.love-border {
+.border {
     height: 2rem;
     width: 2rem;
     color: blue;
     border-radius: 100%;
     transform: translate(-7px, -0.8px);
     background-color: #DEEBFF;
-}
-
-.family-border {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.8px);
-    background-color: #DEEBFF;
-}
-
-.economic-border {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.8px);
-    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -455,24 +410,28 @@ p {
     transform: scale(1.5);
     background-color: pink;
     color: red;
+    -webkit-transition: transform 2s ease-out, background 0.5s ease;
 }
 
 .economic-button:hover {
     transform: scale(1.1);
     background-color: green;
     color: blue;
+    -webkit-transition: transform 2s ease-out, background 0.5s ease;
 }
 
 .family-button:hover {
     transform: scale(1.5);
     background-color: purple;
     color: orangered;
+    -webkit-transition: transform 2s ease-out, background 0.5s ease;
 }
 
 .pets-button:hover {
     transform: scale(1.5);
     background-color: gray;
     color: yellow;
+    -webkit-transition: transform 2s ease-out, background 0.5s ease;
 }
 
 .housing-span>p {
@@ -599,6 +558,6 @@ body {
     font-family: 'Raleway', 'Arial Narrow Bold', sans-serif;
 }
 
-.search-form{
+.search-form {
     display: flex;
 }
