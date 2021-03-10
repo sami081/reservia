@@ -568,7 +568,7 @@ p {
   font-weight: bold;
 }
 
-.activity-marseille-bis>.activity-marseille {
+.activity-marseille-bis>a>.activity-marseille {
   margin-bottom: 20px;
   border-radius: 17px;
   box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
@@ -589,7 +589,7 @@ p {
 .activity-marseille-bis {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
 }
 
 body {
@@ -600,7 +600,7 @@ body {
   display: flex;
 }
 
-.lolo>.housing-span {
+.lolo>a>.housing-span {
   width: 338px;
   height: 146px;
   display: flex;
@@ -608,7 +608,7 @@ body {
   justify-content: space-evenly;
 }
 
-.lolo>.housing-span>.housing-marseille {
+.lolo>a>.housing-span>.housing-marseille {
   width: 33%;
   height: 99%;
   max-width: 100%;
