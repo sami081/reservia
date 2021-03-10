@@ -1,7 +1,14 @@
 @font-face {
-  font-family: 'Raleway';
-  src: url(ressources/font_family/static/Raleway-Black.ttf), url(ressources/font_family/static/Raleway-BlackItalic.ttf), url(ressources/font_family/static/Raleway-Bold.ttf), url(ressources/font_family/static/Raleway-BoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraBold.ttf), url(ressources/font_family/static/Raleway-ExtraBoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraLight.ttf), url(ressources/font_family/static/Raleway-ExtraLightItalic.ttf), url(ressources/font_family/static/Raleway-Italic.ttf), url(ressources/font_family/static/Raleway-Light.ttf), url(ressources/font_family/static/Raleway-LightItalic.ttf), url(ressources/font_family/static/Raleway-Medium.ttf), url(ressources/font_family/static/Raleway-MediumItalic.ttf), url(ressources/font_family/static/Raleway-Regular.ttf), url(ressources/font_family/static/Raleway-SemiBold.ttf), url(ressources/font_family/static/Raleway-SemiBoldItalic.ttf), url(ressources/font_family/static/Raleway-Thin.ttf), url(ressources/font_family/static/Raleway-ThinItalic.ttf);
+  font-family: "Raleway";
+  src: url(ressources/font_family/static/Raleway-Regular.ttf) format("truetype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url(ressources/font_family/static/Raleway-Bold.ttf) format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -17,7 +24,7 @@
     font-size: 1.3em;
   }
   body {
-    font-size: 0.9em;
+    font-size: 0.7em;
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -45,12 +52,8 @@
     display: flex;
     background-color: #F2F2F2;
     flex-direction: column;
-    
     padding-left: 20px;
   }
-
- 
-  
   .logo {
     padding-left: 15px;
   }
@@ -68,7 +71,7 @@
   }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 1100px) {
   .search-icon {
     display: none;
   }
@@ -102,7 +105,6 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #F2F2F2;
-
 }
 
 .sub-main-general {
@@ -362,8 +364,26 @@ p {
 
 body {
   font-family: 'Raleway', 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
 }
 
 .search-form {
   display: flex;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1100px) {
+  header {
+    display: flex;
+  }
+  .search-icon {
+    display: none;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
