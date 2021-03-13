@@ -1,0 +1,133 @@
+@media only screen and (max-width: 450px) {
+  .activity-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .activity-marseille {
+    margin: 20px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
+    height: 236px;
+  }
+  .activity-img, .activity-img-bis {
+    height: 190px;
+    border-radius: 1em 1em 0 0;
+  }
+  .activity-marseille-bis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .activity-info {}
+}
+
+@media only screen and (min-width: 1100px) {
+  .activity-img {
+    width: 250px;
+    height: 85%;
+    border-radius: 1em 1em 0 0;
+  }
+  .activity-marseille {
+    border-radius: 7%;
+    box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
+    margin: 20px;
+    height: 510px;
+  }
+  .activity-img-bis {
+    height: 190px;
+    border-radius: 1em 1em 0 0;
+  }
+  .activity-marseille-bis>a>.activity-marseille {
+    height: 236px;
+  }
+}
+
+.activity-marseille-bis>a>.activity-marseille {
+  margin-bottom: 20px;
+  border-radius: 17px;
+  box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activity-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-marseille-bis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activity-marseille {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.activity-img-bis {
+  width: 100%;
+  object-fit: cover;
+}
+
+.activity-marseille>h3 {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+.activity-info {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1100px) {
+  .activity-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 15px;
+  }
+  .activity-marseille-bis>a>.activity-marseille {
+    height: 400px;
+  }
+  .activity-img {
+    width: 100%;
+    height: 350px;
+    border-radius: 1em 1em 0 0;
+  }
+  .activity-img-bis {
+    height: 350px;
+    width: 100%;
+    border-radius: 1em 1em 0 0
+  }
+  .activity-marseille {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 7%;
+    box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
+  }
+  .marseille-activity {
+    width: 90%;
+  }
+  .activity-marseille-bis>.marseille-activity {
+    width: 90%;
+  }
+  .activity-marseille-bis {
+    width: 100%;
+    align-items: center;
+  }
+}

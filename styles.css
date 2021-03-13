@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
     font-family: 'Raleway';
     src: url(ressources/font_family/static/Raleway-Black.ttf), url(ressources/font_family/static/Raleway-BlackItalic.ttf), url(ressources/font_family/static/Raleway-Bold.ttf), url(ressources/font_family/static/Raleway-BoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraBold.ttf), url(ressources/font_family/static/Raleway-ExtraBoldItalic.ttf), url(ressources/font_family/static/Raleway-ExtraLight.ttf), url(ressources/font_family/static/Raleway-ExtraLightItalic.ttf), url(ressources/font_family/static/Raleway-Italic.ttf), url(ressources/font_family/static/Raleway-Light.ttf), url(ressources/font_family/static/Raleway-LightItalic.ttf), url(ressources/font_family/static/Raleway-Medium.ttf), url(ressources/font_family/static/Raleway-MediumItalic.ttf), url(ressources/font_family/static/Raleway-Regular.ttf), url(ressources/font_family/static/Raleway-SemiBold.ttf), url(ressources/font_family/static/Raleway-SemiBoldItalic.ttf), url(ressources/font_family/static/Raleway-Thin.ttf), url(ressources/font_family/static/Raleway-ThinItalic.ttf);
     font-weight: normal;
@@ -140,33 +141,144 @@
         height: 150px;
         border-radius: 1em 1em 0 0;
     }
+=======
+  font-family: "Raleway";
+  src: url(ressources/font_family/static/Raleway-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+>>>>>>> origin
 }
 
-.logo {
+@font-face {
+  font-family: "DroidSerif";
+  src: url(ressources/font_family/static/Raleway-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 450px) {
+  .search-label {
+    display: none;
+  }
+  .links:hover {
+    color: blue;
+    border-top: 5px solid blue;
+    ;
+  }
+  .search-icon {
+    height: 1rem;
     display: flex;
+  }
+  .title-search {
+    font-size: 1.3em;
+  }
+  body {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  .main-menu {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu {
+    width: 100%;
+    border-bottom: groove lightgray;
+  }
+  .script {
+    color: #0065FC;
+    font-weight: bold;
+  }
+  .activity {
+    padding-left: 45px;
+  }
+  footer {
+    display: flex;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .logo {
+    padding-left: 15px;
+  }
+  .filters {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .filters-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  body{
+    margin-top: 0;
+  }
+  .links {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    display: none;
+  }
+  .main-menu {
+    margin-left: auto;
+    align-items: center;
     order: -1;
+    
+  }
+  .menu{
+    height: 100%;
+    display: flex;
+  }
+  .links>a{
+    border-top: 5px solid transparent;
+    line-height: 60px;
+  }
+  .links>a:hover{
+    border-top-color:  blue;
+  }
+}
+  
+ 
+  
+
+.logo {
+  display: flex;
+  order: -1;
 }
 
 .menu>.submenu {
-    display: flex;
-    justify-content: space-between;
-}
-
-.links {
-    margin-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .activity {
-    color: black;
-    padding-left: 50px;
+  color: black;
+  padding-left: 50px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 footer {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
@@ -180,62 +292,80 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: left;
+=======
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+}
+
+.sub-main-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0;
+>>>>>>> origin
 }
 
 .inscription {
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 50px;
 }
 
 .main-menu {
+<<<<<<< HEAD
     display: flex;
 }
 
 .menu {
     margin-top: 7px;
+=======
+  display: flex;
+>>>>>>> origin
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .script {
-    color: #0065FC;
-    font-weight: bold;
+  color: #0065FC;
+  font-weight: bold;
 }
 
 .search2 {
-    background-color: blue;
-    color: white;
-    height: 2rem;
-    border-radius: 0 1.5rem 1.5rem 0;
-    transform: translateX(-3.5px);
-    border: solid blue
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  border-radius: 0 1.5rem 1.5rem 0;
+  transform: translateX(-3.5px);
+  border: solid blue
 }
 
 #curseur {
-    height: 55vh;
+  height: 55vh;
 }
 
 .form {
-    display: flex;
+  display: flex;
 }
 
 .form>p {
-    width: 3%;
+  width: 3%;
 }
 
 .city {
-    height: 2rem;
-    border: solid #f2f2f2;
+  height: 2rem;
+  border: solid #f2f2f2;
 }
 
 .filters {
-    display: flex;
-    padding-top: 35px;
+  display: flex;
+  padding-top: 35px;
 }
 
+<<<<<<< HEAD
 #icon-maps {
     border-radius: 1.5rem 0 0 1.5rem;
     height: 2rem;
@@ -244,347 +374,238 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #f2f2f2ad;
+=======
+.icon-maps {
+  border-radius: 1.5rem 0 0 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2ad;
+>>>>>>> origin
 }
 
-.svgMaps {
-    height: 1rem;
-    width: 1rem;
+.svg-maps {
+  height: 1rem;
+  width: 1rem;
 }
 
 h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
+  margin-left: 15px;
 }
 
 .finance {
-    height: 1rem;
-    width: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.searchButton {
-    height: 2rem;
-    border: blue;
-    background-color: blue;
-    color: white;
-    border-radius: 0 1.5rem 1.5rem 0;
-    transform: translateX(-6px);
+.search-button {
+  height: 2rem;
+  border: blue;
+  background-color: blue;
+  color: white;
+  border-radius: 0 1.5rem 1.5rem 0;
+  transform: translateX(-6px);
 }
 
-.ticket {
-    height: 1rem;
-    width: 1rem;
-    color: blue;
-    padding-top: 5px;
+.icon {
+  height: 1rem;
+  width: 1rem;
+  color: blue;
 }
 
-.ecoButton {
-    border: solid 2px #d9d9d9;
-    border-radius: 5rem;
-    height: 2.2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 10rem;
-    background-color: white;
-    margin-right: 25px;
-    margin-top: 18px;
+.economic-button {
+  border: solid 2px #d9d9d9;
+  border-radius: 5rem;
+  height: 2.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 10rem;
+  background-color: white;
+  margin-right: 25px;
+  margin-top: 18px;
 }
 
-.eco {
-    display: flex;
-    align-self: center;
-    font-weight: bolder;
+.economic {
+  display: flex;
+  align-self: center;
+  font-weight: bolder;
 }
 
-.familyButton {
-    border: solid 2px #d9d9d9;
-    border-radius: 5rem;
-    height: 2.2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 7rem;
-    background-color: white;
-    margin-right: 25px;
-    margin-top: 18px;
-}
-
-.child {
-    height: 1rem;
-    width: 1rem;
-    color: blue;
-    padding-top: 5px;
+.family-button {
+  border: solid 2px #d9d9d9;
+  border-radius: 5rem;
+  height: 2.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 7rem;
+  background-color: white;
+  margin-right: 25px;
+  margin-top: 18px;
 }
 
 .family {
-    display: flex;
-    align-self: center;
-    font-weight: bolder;
+  display: flex;
+  align-self: center;
+  font-weight: bolder;
 }
 
-.filtersForm {
-    display: flex;
-    padding-top: 5px;
-    padding-left: 10px;
+.filters-form {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
-.loveButton {
-    border: solid 2px #d9d9d9;
-    border-radius: 5rem;
-    height: 2.2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 8rem;
-    background-color: white;
-    margin-right: 25px;
-    margin-top: 18px;
-}
-
-.heart {
-    height: 1rem;
-    width: 1rem;
-    color: blue;
-    padding-top: 5px;
+.love-button {
+  border: solid 2px #d9d9d9;
+  border-radius: 5rem;
+  height: 2.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 8rem;
+  background-color: white;
+  margin-right: 25px;
+  margin-top: 18px;
 }
 
 .love {
-    display: flex;
-    align-self: center;
-    font-weight: bolder;
+  display: flex;
+  align-self: center;
+  font-weight: bolder;
 }
 
-.petsButton {
-    border: solid 2px #d9d9d9;
-    border-radius: 5rem;
-    height: 2.2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 12rem;
-    background-color: white;
-    margin-right: 25px;
-    align-items: center;
-    margin-top: 18px;
-}
-
-.dog {
-    height: 1rem;
-    width: 1rem;
-    padding-top: 5px;
+.pets-button {
+  border: solid 2px #d9d9d9;
+  border-radius: 5rem;
+  height: 2.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 12rem;
+  background-color: white;
+  margin-right: 25px;
+  align-items: center;
+  margin-top: 18px;
 }
 
 .pets {
-    display: flex;
-    align-self: center;
-    font-weight: bolder;
+  display: flex;
+  align-self: center;
+  font-weight: bolder;
 }
 
-.petsBorder {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.3px);
-    background-color: #DEEBFF;
-}
-
-.loveBorder {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.8px);
-    background-color: #DEEBFF;
-}
-
-.familyBorder {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.8px);
-    background-color: #DEEBFF;
-}
-
-.ecoBorder {
-    height: 2rem;
-    width: 2rem;
-    color: blue;
-    border-radius: 100%;
-    transform: translate(-7px, -0.8px);
-    background-color: #DEEBFF;
+.border {
+  height: 2rem;
+  width: 2rem;
+  color: blue;
+  border-radius: 100%;
+  transform: translate(-7px, -0.8px);
+  background-color: #DEEBFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info {
-    height: 0.8rem;
-    width: 0.8rem;
+  height: 0.8rem;
+  width: 0.8rem;
 }
 
-.infoBorder {
-    height: 1.2rem;
-    width: 1.2rem;
-    border: solid lightgrey;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+.information-border {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: solid lightgrey;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .information {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
-    font-size: 0.8em;
-    padding-left: 5px;
+  font-size: 0.8em;
+  margin: 5px;
 }
 
-.loveButton:hover {
-    transform: scale(1.5);
-    background-color: pink;
-    color: red;
+.love-button:hover {
+  transform: scale(1.5);
+  background-color: pink;
+  color: red;
+  -webkit-transition: transform 2s ease-out, background 0.5s ease;
 }
 
-.ecoButton:hover {
-    transform: scale(1.1);
-    background-color: green;
+.economic-button:hover {
+  transform: scale(1.1);
+  background-color: green;
+  color: blue;
+  -webkit-transition: transform 2s ease-out, background 0.5s ease;
+}
+
+.family-button:hover {
+  transform: scale(1.5);
+  background-color: purple;
+  color: orangered;
+  -webkit-transition: transform 2s ease-out, background 0.5s ease;
+}
+
+.pets-button:hover {
+  transform: scale(1.5);
+  background-color: gray;
+  color: yellow;
+  -webkit-transition: transform 2s ease-out, background 0.5s ease;
+}
+
+body {
+  font-family: 'Raleway', 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+}
+
+.search-form {
+  display: flex;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1100px) {
+  .search-icon {
+    display: none;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .links {
+    padding: 0;
+  }
+  .links:hover {
     color: blue;
-}
-
-.familyButton:hover {
-    transform: scale(1.5);
-    background-color: purple;
-    color: orangered;
-}
-
-.petsButton:hover {
-    transform: scale(1.5);
-    background-color: gray;
-    color: yellow;
-}
-
-.housingSpan>p {
-    font-size: 0.3em;
-}
-
-.housingMarseille {
-    height: 75%;
-    width: 95%;
-    border-radius: 1rem 1rem 0 0;
-}
-
-.housingSpan {
-    background-color: white;
-    width: 265px;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    border-top: 5px solid blue;
+  }
+  .main-menu {
+    margin-left: auto;
     align-items: center;
-    margin: 20px;
-    border-radius: 17px;
-    box-shadow: 2px 2px 2rem rgb(163 163 163 / 90%);
-}
-
-.housingSpanBis {
-    background-color: white;
-    height: 120px;
+    order: -1;
+  }
+  .filters-form {
     display: flex;
-    margin: 20px;
-    border-radius: 17px;
-    box-shadow: 2px 2px 2rem rgb(163 163 163 / 90%);
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 25px;
-}
-
-.housingMarseilleBis {
-    height: 95%;
-    width: 43%;
-    border-radius: 1rem 0 0 1rem;
-    display: flex;
-    align-self: center;
-    padding: 3px;
-    font-size: 0.8em;
-}
-
-.star {
-    height: 8px;
-}
-
-.starSpan {
-    display: flex;
-}
-
-.starSpanBis {
-    display: flex;
-    margin-bottom: 5px;
-}
-
-.star2 {
-    height: 8px;
-}
-
-.result {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.accommodation {
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.housing {
-    display: flex;
-    justify-content: space-between;
-}
-
-.category {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.esc {
-    height: 15px;
-    margin-right: 10px;
-}
-
-.titles {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.accommodation>p {
-    font-weight: bold;
-}
-
-.act {
-    margin-bottom: 20px;
-    border-radius: 17px;
-    box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%)
-}
-
-.activitySection {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 10px;
-}
-
-.activityMarseilleBis {
-    display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     justify-content: space-between;
 }
@@ -595,4 +616,8 @@ body {
 
 h3 {
     font-size: x-small;
+=======
+    flex-wrap: wrap;
+  }
+>>>>>>> origin
 }
