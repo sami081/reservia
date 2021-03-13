@@ -105,7 +105,7 @@
     line-height: 60px;
   }
   .links>a:hover{
-    border-top: 5px solid blue;
+    border-top-color:  blue;
   }
 }
   
