@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 425px) {
   .activity-section {
     display: flex;
     flex-direction: column;
@@ -87,7 +87,6 @@
 .activity-marseille-bis {
   display: flex;
   flex-direction: column;
-  
 }
 
 .activity-marseille {
@@ -120,7 +119,7 @@
   margin: 15px 0;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 1024px) {
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
   .activity-section {
     display: flex;
     flex-wrap: wrap;

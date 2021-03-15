@@ -1,7 +1,12 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 425px) {
   .housing {
     display: flex;
     flex-direction: column;
+  }
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .housing-span {
     height: 175px;
@@ -122,6 +127,11 @@
     align-content: space-around;
     flex-direction: column;
   }
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .more {
@@ -212,12 +222,6 @@
   margin-right: 10px;
 }
 
-.titles {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .accommodation>p {
   font-weight: bold;
   margin-left: 30px;
@@ -256,15 +260,45 @@
 
 .titles>h2 {}
 
-@media only screen and (min-width: 451px) and (max-width: 1024px) {
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
   .housing {
     display: flex;
     flex-direction: column;
   }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .housing-link {
+    width: 50%;
+  }
+  .popular {
+    display: flex;
+    justify-content: space-around;
+    height: 95%;
+  }
+  .popular>.housing-link {
+    width: 30%;
+    height: 230px;
+  }
+  .popular>.housing-link>.housing-span {
+    width: 100%;
+    height: 100%;
+  }
+  .popular>.housing-link>.housing-span>.housing-marseille {
+    width: 100%;
+    height: 60%;
+    border-radius: 1rem 1rem 0 0;
+  }
   .category {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     width: 100%;
+    height: 400px;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
   }
   .housing-span {
     width: 80%;
@@ -283,6 +317,8 @@
   }
   .result {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
   }
 }
