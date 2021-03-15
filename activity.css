@@ -3,48 +3,75 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1305px;
+    justify-content: space-around;
   }
   .activity-marseille {
-    margin: 20px;
     border-radius: 17px;
     box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
-    height: 236px;
+    height: 100%
   }
   .activity-img, .activity-img-bis {
-    height: 190px;
+    height: 134px;
     border-radius: 1em 1em 0 0;
   }
   .activity-marseille-bis {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 432px;
   }
   .activity-info {}
+  .marseille-activity {
+    height: 195px;
+    width: 90%;
+  }
+  .activity-marseille-bis>.marseille-activity {}
 }
 
 @media only screen and (min-width: 1025px) {
   .activity-img {
-    width: 250px;
-    height: 85%;
+    width: 100%;
+    height: 392px;
     border-radius: 1em 1em 0 0;
   }
   .activity-marseille {
     border-radius: 7%;
     box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
-    margin: 20px;
-    height: 510px;
+    height: 100%;
+    width: 100%;
+  }
+  .activity-marseille-bis {
+    justify-content: space-between;
+    height: 445px;
+    width: 23%;
+  }
+  .activity-marseille-bis>.marseille-activity {
+    width: 100%;
+    height: 200px;
   }
   .activity-img-bis {
-    height: 190px;
+    height: 120px;
     border-radius: 1em 1em 0 0;
   }
   .activity-marseille-bis>a>.activity-marseille {
-    height: 236px;
+    height: 100%;
   }
+  .activity-section {
+    height: 510px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .marseille-activity {
+    height: 444px;
+    width: 23%;
+  }
+  .activity-info {}
 }
 
 .activity-marseille-bis>a>.activity-marseille {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border-radius: 17px;
   box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
   display: flex;
@@ -55,13 +82,12 @@
 
 .activity-section {
   display: flex;
-  justify-content: space-between;
 }
 
 .activity-marseille-bis {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
 }
 
 .activity-marseille {
