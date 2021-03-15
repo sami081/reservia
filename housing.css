@@ -4,7 +4,8 @@
     flex-direction: column;
   }
   .housing-span {
-    height: 200px;
+    height: 175px;
+    margin: 0px;
   }
   .housing-marseille {
     width: 100%;
@@ -19,25 +20,43 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: space-around;
+    align-items: center;
     height: 95%;
   }
   .titles>h2 {
     margin-left: 0px;
   }
   .popular>.housing-link {
-    width: 92%;
     height: 142px;
   }
   .popular>.housing-link>.housing-span {
     height: 100%;
-    width: 100%;
   }
   .popular>.housing-link>.housing-span>.housing-marseille {
-    width: 45%;
+    width: 40%;
   }
-  .popular>.housing-link>.housing-span>.housing-info {width: 55%;}
-  .star-span {}
+  .popular>.housing-link>.housing-span>.housing-info {
+    width: 40%;
+  }
+  .result {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .result>.housing-link {
+    width: 90%;
+    height: 200px;
+  }
+  .result>.housing-link>.housing-span {}
+  .result>.housing-link>.housing-span>.housing-marseille {}
+  .accommodation {
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -235,8 +254,7 @@
   margin-left: 30px;
 }
 
-.titles>h2 {
-}
+.titles>h2 {}
 
 @media only screen and (min-width: 451px) and (max-width: 1024px) {
   .housing {
