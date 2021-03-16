@@ -78,7 +78,22 @@
 
 @media only screen and (min-width: 1025px) {
   body {
-    margin-top: 0;
+    margin 0;
+  }
+  .housing-numbers {
+    padding-left: 15px;
+  }
+  header {
+    margin: 0 50px;
+  }
+  .search {
+    margin: 0 50px;
+  }
+  .filters {
+    margin: 0 50px;
+  }
+  .information {
+    margin: 30px 50px;
   }
   .links {
     padding: 0;
@@ -209,7 +224,6 @@ ul {
 
 h2 {
   font-size: 1.5em;
-  margin-left: 20px;
 }
 
 .finance {
@@ -235,34 +249,10 @@ h2 {
   color: blue;
 }
 
-.economic-button {
-  border: solid 2px #d9d9d9;
-  border-radius: 5rem;
-  height: 2.2rem;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 10rem;
-  background-color: white;
-  margin-right: 25px;
-  margin-top: 18px;
-}
-
 .economic {
   display: flex;
   align-self: center;
   font-weight: bolder;
-}
-
-.family-button {
-  border: solid 2px #d9d9d9;
-  border-radius: 5rem;
-  height: 2.2rem;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 7rem;
-  background-color: white;
-  margin-right: 25px;
-  margin-top: 18px;
 }
 
 .family {
@@ -274,19 +264,7 @@ h2 {
 .filters-form {
   display: flex;
   padding-top: 5px;
-  padding-left: 10px;
-}
-
-.love-button {
-  border: solid 2px #d9d9d9;
-  border-radius: 5rem;
-  height: 2.2rem;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 8rem;
-  background-color: white;
-  margin-right: 25px;
-  margin-top: 18px;
+  padding-left: 30px;
 }
 
 .love {
@@ -295,13 +273,12 @@ h2 {
   font-weight: bolder;
 }
 
-.pets-button {
+.design-button {
   border: solid 2px #d9d9d9;
   border-radius: 5rem;
   height: 2.2rem;
   display: flex;
   flex-wrap: nowrap;
-  width: 12rem;
   background-color: white;
   margin-right: 25px;
   align-items: center;
@@ -339,8 +316,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .information {
@@ -355,35 +330,14 @@ header {
 
 p {
   font-size: 0.8em;
-  margin: 5px;
+  margin-left: 15px;
 }
 
-.love-button:hover {
-  transform: scale(1.5);
-  background-color: pink;
-  color: red;
-  -webkit-transition: transform 2s ease-out, background 0.5s ease;
-}
-
-.economic-button:hover {
-  transform: scale(1.1);
-  background-color: green;
-  color: blue;
-  -webkit-transition: transform 2s ease-out, background 0.5s ease;
-}
-
-.family-button:hover {
-  transform: scale(1.5);
-  background-color: purple;
-  color: orangered;
-  -webkit-transition: transform 2s ease-out, background 0.5s ease;
-}
-
-.pets-button:hover {
+.design-button:hover {
   transform: scale(1.5);
   background-color: gray;
   color: yellow;
-  -webkit-transition: transform 2s ease-out, background 0.5s ease;
+  -webkit-transition: transform 1s ease-out, background 0.5s ease;
 }
 
 body {
@@ -423,7 +377,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
   }
-  body{
+  body {
     width: 100%;
   }
 }

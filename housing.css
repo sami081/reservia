@@ -99,6 +99,7 @@
   }
   .housing {
     height: 625px;
+    margin: 0 50px;
   }
   .house-info {
     display: flex;
@@ -205,7 +206,6 @@
 .housing {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
 }
 
 .category {
@@ -295,6 +295,7 @@
     flex-direction: column;
     width: 100%;
     height: 400px;
+    padding: 0;
   }
   .titles {
     display: flex;

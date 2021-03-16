@@ -46,13 +46,14 @@
     justify-content: space-between;
     height: 445px;
     width: 23%;
+    flex-direction: column;
   }
   .activity-marseille-bis>.marseille-activity {
     width: 100%;
     height: 200px;
   }
   .activity-img-bis {
-    height: 120px;
+    height: 75%;
     border-radius: 1em 1em 0 0;
   }
   .activity-marseille-bis>a>.activity-marseille {
@@ -62,12 +63,17 @@
     height: 510px;
     display: flex;
     justify-content: space-around;
+    margin: 0 50px;
   }
   .marseille-activity {
     height: 444px;
     width: 23%;
   }
   .activity-info {}
+}
+
+#activities {
+  margin: 60px 50px 25px 50px;
 }
 
 .activity-marseille-bis>a>.activity-marseille {
@@ -86,7 +92,6 @@
 
 .activity-marseille-bis {
   display: flex;
-  flex-direction: column;
 }
 
 .activity-marseille {
@@ -116,43 +121,54 @@
   display: flex;
   align-self: flex-start;
   padding-left: 15px;
-  margin: 15px 0;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   .activity-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-block: 15px;
+    height: 500px;
+    align-content: space-around;
   }
-  .activity-marseille-bis>a>.activity-marseille {
-    height: 400px;
+  .activity-marseille-bis>.marseille-activity>.activity-marseille {
+    height: 100%;
+    width: 100%;
   }
   .activity-img {
     width: 100%;
-    height: 350px;
+    height: 80%;
     border-radius: 1em 1em 0 0;
   }
   .activity-img-bis {
-    height: 350px;
+    height: 73.52%;
     width: 100%;
-    border-radius: 1em 1em 0 0
+    border-radius: 1em 1em 0 0;
   }
   .activity-marseille {
     width: 100%;
-    margin-bottom: 25px;
     border-radius: 7%;
     box-shadow: 1px 1px 1rem rgb(163 163 163 / 90%);
   }
   .marseille-activity {
-    width: 90%;
+    width: 28%;
+    height: 195px;
   }
   .activity-marseille-bis>.marseille-activity {
-    width: 90%;
+    width: 38.89%;
+    height: 100%;
   }
   .activity-marseille-bis {
-    width: 100%;
+    width: 72%;
     align-items: center;
+    justify-content: space-around;
+    height: 195px;
+  }
+  .activity-info {
+    height: 20%;
+  }
+  .activity-marseille-bis>.marseille-activity>.activity-marseille>.activity-info {
+    height: 73.52%;
+    width: 100%;
+    border-radius: 1em 1em 0 0;
   }
 }
