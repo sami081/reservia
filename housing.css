@@ -3,6 +3,22 @@
     display: flex;
     flex-direction: column;
   }
+  .amina-hotel {order: -1;}
+  .hotel-the-seagull {
+    order: -4;
+  }
+  .hotel-basket {
+    order: -2;
+  }
+  .harbor-hotel {
+    order: -5;
+  }
+  .sea-hotel {
+    order: -3;
+  }
+  .cannebiere-hostel {
+    order: -6;
+  }
   .titles {
     display: flex;
     justify-content: space-between;
@@ -86,7 +102,6 @@
   }
   .popular>.housing-link>.housing-span {
     flex-wrap: wrap;
-    
   }
   .popular>.housing-link>.housing-span>.housing-info {
     width: 45%;
@@ -94,7 +109,7 @@
     margin-top: auto;
     margin-bottom: auto;
   }
-  .popular>.housing-link>.housing-span>.star-span{
+  .popular>.housing-link>.housing-span>.star-span {
     margin-left: 15px;
   }
   .accommodation {
@@ -328,7 +343,7 @@
     align-content: space-around;
   }
 }
-.price{
+
+.price {
   font-weight: bold;
- 
 }
