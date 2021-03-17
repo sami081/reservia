@@ -89,7 +89,7 @@
     
   }
   .popular>.housing-link>.housing-span>.housing-info {
-    width: 40%;
+    width: 45%;
     margin-left: 15px;
     margin-top: auto;
     margin-bottom: auto;
@@ -244,7 +244,7 @@
 }
 
 .popular>a>.housing-span>.housing-marseille {
-  width: 60%;
+  width: 55%;
   height: 99%;
   max-width: 100%;
   border-radius: 1rem 0 0 1rem;
