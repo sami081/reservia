@@ -12,9 +12,12 @@
   font-style: normal;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
   .search-label {
     display: none;
+  }
+  .titles-filters {
+    margin-left: 20px;
   }
   .links:hover {
     color: blue;
@@ -79,6 +82,9 @@
 @media only screen and (min-width: 1025px) {
   body {
     margin 0;
+  }
+  .inscription {
+    padding-left: 50px;
   }
   .housing-numbers {
     padding-left: 15px;
@@ -160,7 +166,6 @@ footer {
   display: flex;
   align-items: center;
   padding-right: 10px;
-  padding-left: 50px;
 }
 
 .main-menu {
@@ -330,7 +335,6 @@ header {
 
 p {
   font-size: 0.8em;
-  margin-left: 15px;
 }
 
 .design-button:hover {
@@ -353,9 +357,17 @@ h3 {
   font-size: 1em;
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1024px) {
+@media only screen and (min-width: 451px) and (max-width: 1024px) {
   .search-icon {
     display: none;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    padding-left: 15px;
   }
   h2 {
     display: flex;
@@ -369,9 +381,11 @@ h3 {
     border-top: 5px solid blue;
   }
   .main-menu {
-    margin-left: auto;
-    align-items: center;
-    order: -1;
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+    border-bottom: groove lightgray;
   }
   .filters-form {
     display: flex;
@@ -379,5 +393,6 @@ h3 {
   }
   body {
     width: 100%;
+    margin: 0;
   }
 }
