@@ -33,14 +33,26 @@
   }
   .menu {
     width: 100%;
-    border-bottom: groove lightgray;
+    border-radius: ;
   }
-  .links:hover {
-    color: blue;
-    border-top: 5px solid blue;
+  .submenu {
+    padding-left: 0;
+  }
+  .links {
+    width: 50%;
+  }
+  .links>a {
+    border-bottom: 5px solid lightgray;
+    line-height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .links>a:hover {
+    border-bottom-color: #0065FC;
   }
   .activity {
-    margin-left: 45px;
+    padding-left: 35px;
   }
   /*end-header*/
   /*search-banner*/
@@ -436,7 +448,6 @@ h3 {
     align-content: center;
     height: 100%;
   }
- 
   /*end-filters-banner*/
   /*div-information*/
   .information {
@@ -460,11 +471,12 @@ h3 {
 }
 
 /*end-tablet-version*/
+
 @media only screen and (min-width: 451px) and (max-width: 787px) {
-  .filters{
+  .filters {
     height: 130px;
   }
-  .filters-form{
+  .filters-form {
     align-content: space-around;
   }
 }
