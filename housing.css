@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
   }
-  .amina-hotel {order: -1;}
+  .amina-hotel {
+    order: -1;
+  }
   .hotel-the-seagull {
     order: -4;
   }
@@ -104,7 +106,7 @@
     flex-wrap: wrap;
   }
   .popular>.housing-link>.housing-span>.housing-info {
-    width: 45%;
+    width: 40%;
     margin-left: 15px;
     margin-top: auto;
     margin-bottom: auto;
@@ -259,7 +261,7 @@
 }
 
 .popular>a>.housing-span>.housing-marseille {
-  width: 55%;
+  width: 60%;
   height: 99%;
   max-width: 100%;
   border-radius: 1rem 0 0 1rem;
