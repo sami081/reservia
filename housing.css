@@ -75,8 +75,6 @@
     width: 90%;
     height: 200px;
   }
-  .result>.housing-link>.housing-span {}
-  .result>.housing-link>.housing-span>.housing-marseille {}
   .accommodation {
     height: 1400px;
     display: flex;
@@ -107,7 +105,7 @@
   }
   .popular>.housing-link>.housing-span>.housing-info {
     width: 40%;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -275,13 +273,14 @@
 
 .housing-info>h3 {
   font-size: small;
+  width: 95%;
 }
 
 .accommodation>h2 {
   margin-left: 30px;
 }
 
-.titles>h2 {}
+
 
 @media only screen and (min-width: 451px) and (max-width: 1024px) {
   .housing {
@@ -344,6 +343,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+  }
+  .housing-info>p{
+    width: 95%;
   }
 }
 

@@ -40,12 +40,12 @@
     border-top: 5px solid blue;
   }
   .activity {
-    padding-left: 45px;
+    margin-left: 45px;
   }
   /*end-header*/
   /*search-banner*/
   .search {
-    padding-left: 10px;
+    margin-left: 20px;
   }
   .title-search {
     font-size: 1.3em;
@@ -62,16 +62,21 @@
   .filters {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-  }
-  .titles-filters {
     margin-left: 20px;
   }
   .filters-form {
     display: flex;
     flex-wrap: wrap;
   }
+  .design-button {
+    margin-top: 18px;
+  }
   /* end-filters-banner*/
+  /*div information*/
+  .information {
+    margin: 20px;
+  }
+  /*end-div-information*/
   /*footer*/
   footer {
     display: flex;
@@ -124,6 +129,9 @@
   .links>a:hover {
     border-top-color: blue;
   }
+  .activity {
+    margin-left: 50px;
+  }
   /*end-header*/
   /*search-banner*/
   .search {
@@ -136,28 +144,26 @@
   /*filters-banner*/
   .filters {
     margin: 0 50px;
+    align-items: center;
+  }
+  .filters-form {
+    padding-left: 30px;
   }
   /*end-filters-banner*/
   /*div-information*/
+  .housing-numbers {
+    padding-left: 15px;
+  }
+  .information {
+    margin: 30px 50px;
+  }
+  /*end-div-information*/
+  /*general*/
+  body {
+    margin: 0;
+  }
+  /*end-general*/
 }
-
-.information {
-  margin: 30px 50px;
-}
-
-.housing-numbers {
-  padding-left: 15px;
-}
-
-/*end-div-information*/
-
-/*general*/
-
-body {
-  margin: 0;
-}
-
-/*end-general*/
 
 /*end-desktop-version*/
 
@@ -199,7 +205,6 @@ header {
 
 .activity {
   color: black;
-  margin-left: 50px;
 }
 
 /*end-header*/
@@ -256,7 +261,6 @@ header {
 .filters-form {
   display: flex;
   padding-top: 5px;
-  padding-left: 30px;
 }
 
 .design-button {
@@ -268,7 +272,7 @@ header {
   background-color: white;
   margin-right: 25px;
   align-items: center;
-  margin-top: 18px;
+  padding-right: 20px;
 }
 
 .design-button:hover {
@@ -300,6 +304,7 @@ header {
   display: flex;
   align-self: center;
   font-weight: bolder;
+  font-family: 'Raleway-ExtraBold';
 }
 
 /*end-filters-banner*/
@@ -370,7 +375,7 @@ h2 {
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 body {
@@ -396,6 +401,14 @@ h3 {
     display: flex;
     flex-wrap: wrap;
   }
+  .search {
+    margin-left: 20px;
+  }
+  .filters {
+    height: 80px;
+    margin-left: 20px;
+    align-items: center;
+  }
   .logo {
     padding-left: 15px;
   }
@@ -409,10 +422,6 @@ h3 {
   .links {
     padding: 0;
   }
-  .links:hover {
-    color: blue;
-    border-top: 5px solid blue;
-  }
   /*end-header*/
   /*search-banner*/
   .search-icon {
@@ -423,9 +432,21 @@ h3 {
   .filters-form {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 15px;
+    align-content: center;
+    height: 100%;
   }
+ 
   /*end-filters-banner*/
-
+  /*div-information*/
+  .information {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .housing-numbers {
+    margin-left: 10px;
+  }
+  /*end-div-information*/
   /*general*/
   h2 {
     display: flex;
@@ -439,3 +460,11 @@ h3 {
 }
 
 /*end-tablet-version*/
+@media only screen and (min-width: 451px) and (max-width: 787px) {
+  .filters{
+    height: 130px;
+  }
+  .filters-form{
+    align-content: space-around;
+  }
+}
