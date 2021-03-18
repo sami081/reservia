@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: "DroidSerif";
-  src: url(ressources/font_family/static/Raleway-Bold.ttf) format("truetype");
+  font-family: "Raleway-Extrabold";
+  src: url(ressources/font_family/static/Raleway-ExtraBold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -184,6 +184,7 @@ header {
 .script {
   color: #0065FC;
   font-weight: bold;
+  font-family: 'Raleway-ExtraBold';
 }
 
 .main-menu {
@@ -365,6 +366,7 @@ ul {
 
 h2 {
   font-size: 1.5em;
+  font-family: 'Raleway-ExtraBold';
 }
 
 p {
@@ -378,6 +380,7 @@ body {
 
 h3 {
   font-size: 1em;
+  font-family: 'Raleway-ExtraBold';
 }
 
 /*end-general*/
