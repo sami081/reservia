@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <html lang="fr">
 =======
 <html lang>
+>>>>>>> origin
+=======
+<html lang=fr>
 >>>>>>> origin
 
 <head>
@@ -18,7 +22,7 @@
 </head>
 
 <body>
-  <!--en tête-->
+  <!--header-->
   <header>
     <div class="logo">
       <img src="ressources/logo/Reservia@3x.png" alt="logo" id="logo1" />
@@ -35,9 +39,9 @@
     </div>
 
   </header>
-  <!--fin de l'en tête-->
+  <!--end header-->
 
-  <!--banniere de recheche-->
+  <!--search banner-->
 
   <section class="search">
 <<<<<<< HEAD
@@ -53,6 +57,7 @@
 
 
     <div class="form">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <label for="search" id="icon-maps">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svgMaps"
@@ -73,7 +78,13 @@
           <span class="search-label">Rechercher</span>
           <img src="ressources/img/loupe.svg" class="search-icon" alt="search" id="logoSearch">
 =======
+=======
+>>>>>>> origin
       <form class="search-form" method="post" action="#">
+      <button class="maps-button">
+      <img src="ressources/logo/map-marker.svg" class="icon-maps" alt="marqueur-gps">
+      </button>
+      
         <input class="city" type="search" />
         <button class="search-button">
           <span class="search-label">Rechercher</span>
@@ -83,6 +94,7 @@
 
 
       </form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -306,151 +318,163 @@
       </div>
 =======
       </p>
+=======
+      
+>>>>>>> origin
 
     </div>
 
   </section>
-  <!--fin de la banniere de recherche-->
+  <!-- end of search banner -->
 
-  <!-- banniere des filtres-->
+  <!-- filters banner-->
 
   <section class="filters">
-    <h2>Filtres</h2>
+    <h2 class="titles-filters">Filtres</h2>
     <form class="filters-form" method="post" action="#">
 
 
-      <button class="economic-button">
+      <button class="design-button">
         <span class="border">
-          <img src="ressources/logo/money.svg" class="icon" alt="logo-ticket">
+          <img src="ressources/logo/money.svg" class="icon" alt="billet">
         </span>
-        <span class="economic">Economique</span>
+        <span class="criteria">Economique</span>
       </button>
-      <button class="family-button">
+      <button class="design-button">
         <span class="border">
-          <img src="ressources/logo/child.svg" class="icon" alt="logo-family">
+          <img src="ressources/logo/child.svg" class="icon" alt="petit-bohnomme">
         </span>
-        <span class="family">Familial</span>
+        <span class="criteria">Familial</span>
       </button>
-      <button class="love-button">
+      <button class="design-button">
         <span class="border">
-          <img src="ressources/logo/heart.svg" class="icon" alt="logo-heart">
+          <img src="ressources/logo/heart.svg" class="icon" alt="coeur">
         </span>
-        <span class="love">Romantique</span>
+        <span class="criteria">Romantique</span>
       </button>
-      <button class="pets-button">
+      <button class="design-button">
         <span class="border">
-          <img src="ressources/logo/dog.svg" class="icon" alt="logo-pets">
+          <img src="ressources/logo/dog.svg" class="icon" alt="chien">
         </span>
-        <span class="pets">Animaux autorisés</span>
+        <span class="criteria">Animaux autorisés</span>
       </button>
     </form>
 
   </section>
 
-  <!-- fin de la banniere filtres-->
+  <!-- end of filters banner-->
+
+  <!-- div information-->
+
   <div class="information">
     <span class="information-border">
       <img src="ressources/logo/info.svg" class="info" alt="logo-info">
     </span>
-    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    <p class="housing-numbers">Plus de 500 logements sont disponibles dans cette ville</p>
   </div>
+  <!--end div information-->
+
+  <!--housing section-->
+
   <section class="housing">
     <section class="accommodation">
       <h2 id="accommodations">Hébergements à Marseille</h2>
       <div class="result">
-        <a class=" housing-link" href="#">
+        <a class=" housing-link cannebiere-hostel" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing1.jpg" class="housing-marseille">
+            <img src="ressources/img/housing1.jpg" class="housing-marseille" alt="auberge-de-la-cannebière">
             <div class="house-info">
-              <h3>Auberge de ma Cannebière</h3>
-              <p>Nuit à partir de 25€</p>
+              <h3>Auberge la Cannebière</h3>
+              <p>Nuit à partir <span class="price">25€</span></p>
               <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star2.svg" class="star">
+                <img src="ressources/logo/star.svg" class="star" alt="etoile-bleu">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
               </span>
             </div>
 
           </div>
         </a>
-        <a href="#">
+        <a class="housing-link sea-hotel" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing2.jpg" class="housing-marseille">
-            <div class="house-info">
-              <h3>Hôtel du port</h3>
-              <p>Nuit à partir de 52€</p>
-              <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-              </span>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="housing-span">
-            <img src="ressources/img/housing3.jpg" class="housing-marseille">
-            <div class="house-info">
-              <h3>Hôtel les mouettes</h3>
-              <p>Nuit à partir de 76€</p>
-              <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star2.svg" class="star">
-              </span>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="housing-span">
-            <img src="ressources/img/housing4.jpg" class="housing-marseille">
+            <img src="ressources/img/housing4.jpg" class="housing-marseille" alt="hotel-de-la-mer">
             <div class="house-info">
               <h3>Hôtel de la mer</h3>
-              <p>Nuit à partir de 46€</p>
+              <p>Nuit à partir de 46<span class="price">€</span></p>
               <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star2.svg" class="star">
-                <img src="ressources/logo/star2.svg" class="star">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
+                <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
               </span>
             </div>
           </div>
         </a>
-        <a href="#">
+        <a class="housing-link harbor-hotel" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing5.jpg" class="housing-marseille">
+            <img src="ressources/img/housing2.jpg" class="housing-marseille" alt="hotel-du-port">
             <div class="house-info">
-              <h3>Auberge le panier</h3>
-              <p>Nuit à partir de 23€</p>
+              <h3>Hôtel du port</h3>
+              <p>Nuit à partir de 52<span class="price">€</span></p>
               <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star2.svg" class="star">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
               </span>
             </div>
           </div>
         </a>
-        <a href="#">
+        <a class="housing-link hotel-basket" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing6.jpg" class="housing-marseille">
+            <img src="ressources/img/housing5.jpg" class="housing-marseille" alt="auberge-le-panier">
+            <div class="house-info">
+              <h3>Auberge le Panier</h3>
+              <p>Nuit à partir de <span class="price">23€</span></p>
+              <span class="star-span">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
+              </span>
+            </div>
+          </div>
+        </a>
+        <a class="housing-link hotel-the-seagull" href="#">
+          <div class="housing-span">
+            <img src="ressources/img/housing3.jpg" class="housing-marseille" alt="hotel les mouettes">
+            <div class="house-info">
+              <h3>Hôtel les mouettes</h3>
+              <p>Nuit à partir de 76<span class="price">€</span></p>
+              <span class="star-span">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
+              </span>
+            </div>
+          </div>
+        </a>
+
+
+        <a class="housing-link amina-hotel" href="#">
+          <div class="housing-span">
+            <img src="ressources/img/housing6.jpg" class="housing-marseille" alt="hotel-chez-amina">
             <div class="house-info">
               <h3>Hôtel chez Amina</h3>
-              <p>Nuit à partir de 96€</p>
+              <p>Nuit à partir de 96<span class="price">€</span></p>
               <span class="star-span">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
-                <img src="ressources/logo/star.svg" class="star">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+                <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
 
               </span>
             </div>
@@ -459,7 +483,7 @@
 
       </div>
 
-      <p>Afficher plus</p>
+      <a class="more" href="#">Afficher plus</a>
     </section>
 
 
@@ -468,54 +492,54 @@
     <aside class="category">
       <div class="titles">
         <h2>Les plus populaires</h2>
-        <img src="ressources/logo/esc.svg" class="esc">
+        <img src="ressources/logo/esc.svg" class="esc" alt="logo-petit-escalier">
       </div>
-      <div class="lolo">
-        <a href="#">
+      <div class="popular">
+        <a class="housing-link" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing7.jpg" class="housing-marseille">
+            <img src="ressources/img/housing7.jpg" class="housing-marseille" alt="hôtel-le-soleil-du-matin">
             <div class="housing-info">
               <h3>Hôtel le soleil du matin</h3>
-              <p>Nuit à partir de 25€</p>
+              <p>Nuit à partir de <span class="price">25€</span></p>
             </div>
             <span class="star-span">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
             </span>
           </div>
         </a>
-        <a href="#">
+        <a class="housing-link" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing8.jpg" class="housing-marseille">
+            <img src="ressources/img/housing8.jpg" class="housing-marseille" alt="chambres-d'hotes">
             <div class="housing-info">
               <h3>Au coeur de l'eau Chambres d'hotes </h3>
-              <p>Nuit à partir de 71€</p>
+              <p>Nuit à partir de 71<span class="price">€</span></p>
             </div>
             <span class="star-span">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star2.svg" class="star">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star2.svg" class="star" alt="étoile-grise">
             </span>
           </div>
         </a>
-        <a href="#">
+        <a class="housing-link" href="#">
           <div class="housing-span">
-            <img src="ressources/img/housing9.jpg" class="housing-marseille">
+            <img src="ressources/img/housing9.jpg" class="housing-marseille" alt="hotel-tout-bleu-et-blanc">
             <div class="housing-info">
               <h3>Hôtel Tout bleu et Blanc</h3>
-              <p>Nuit à partir de 66€ </p>
+              <p>Nuit à partir de 66<span class="price">€</span></p>
             </div>
             <span class="star-span">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star.svg" class="star">
-              <img src="ressources/logo/star2.svg" class="star">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star.svg" class="star" alt="étoile-bleue">
+              <img src="ressources/logo/star2.svg" class="star" alt="étoile grise">
             </span>
           </div>
         </a>
@@ -523,10 +547,11 @@
     </aside>
   </section>
   <h2 id="activities">Activité à Marseille</h2>
+  <!--activities section desktop and mobile version-->
   <section class="activity-section">
     <a class="marseille-activity" href="#">
       <div class="activity-marseille">
-        <img src="ressources/img/Activity1.jpg" class="activity-img">
+        <img src="ressources/img/Activity1.jpg" class="activity-img" alt="vieux-port">
         <div class="activity-info">
           <h3>Vieux port</h3>
         </div>
@@ -535,7 +560,7 @@
     <div class="activity-marseille-bis">
       <a class="marseille-activity" href="#">
         <div class="activity-marseille">
-          <img src="ressources/img/activity2.jpg" class="activity-img-bis">
+          <img src="ressources/img/activity2.jpg" class="activity-img-bis" alt="fort-de-pomegues">
           <div class="activity-info">
             <h3>Fort de Pomègues</h3>
           </div>
@@ -543,7 +568,7 @@
       </a>
       <a class="marseille-activity" href="#">
         <div class="activity-marseille">
-          <img src="ressources/img/activity3.jpg" class="activity-img-bis">
+          <img src="ressources/img/activity3.jpg" class="activity-img-bis" alt="iles-du-frioul">
           <div class="activity-info">
             <h3>Îles du Frioul</h3>
           </div>
@@ -553,7 +578,7 @@
     </div>
     <a class="marseille-activity" href="#">
       <div class="activity-marseille">
-        <img src="ressources/img/activity4.jpg" class="activity-img">
+        <img src="ressources/img/activity4.jpg" class="activity-img" alt="parc-national-des-calanques">
         <div class="activity-info">
           <h3>Parc National des Calanques</h3>
         </div>
@@ -562,17 +587,17 @@
     <div class="activity-marseille-bis">
       <a class="marseille-activity" href="#">
         <div class="activity-marseille">
-          <img src="ressources/img/activity5.jpg" class="activity-img-bis">
+          <img src="ressources/img/activity5.jpg" class="activity-img-bis" alt="notre-dame-de-la-garde">
           <div class="activity-info">
-            <h3>Fort de Pomègues</h3>
+            <h3>Notre-Dame-de-la-Garde</h3>
           </div>
         </div>
       </a>
       <a class="marseille-activity" href="#">
         <div class="activity-marseille">
-          <img src="ressources/img/activity6.jpg" class="activity-img-bis">
+          <img src="ressources/img/activity6.jpg" class="activity-img-bis" alt="parc-longchamp">
           <div class="activity-info">
-            <h3>Îles du Frioul</h3>
+            <h3>Parc longchamp</h3>
           </div>
         </div>
       </a>
@@ -580,7 +605,60 @@
 
     </div>
   </section>
-
+  <!-- end activities section desktop and mobile version-->
+  <!-- tablet version activities section-->
+  <section class="activity-tablet">
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/Activity1.jpg" class="activity-img" alt=" vieux-port">
+        <div class="activity-info">
+          <h3>Vieux port</h3>
+        </div>
+      </div>
+    </a>
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/activity2.jpg" class="activity-img" alt="fort-de-pomegues">
+        <div class="activity-info">
+          <h3>Fort de Pomègues</h3>
+        </div>
+      </div>
+    </a>
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/activity3.jpg" class="activity-img" alt="iles-du-frioul">
+        <div class="activity-info">
+          <h3>Îles du Frioul</h3>
+        </div>
+      </div>
+    </a>
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/activity4.jpg" class="activity-img" alt="parc-national-des-calanques">
+        <div class="activity-info">
+          <h3>Parc National des Calanques</h3>
+        </div>
+      </div>
+    </a>
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/activity5.jpg" class="activity-img" alt="notre-dame-de-la-garde">
+        <div class="activity-info">
+          <h3>Notre-Dame-de-la-Garde</h3>
+        </div>
+      </div>
+    </a>
+    <a class="marseille-activity" href="#">
+      <div class="activity-marseille">
+        <img src="ressources/img/activity6.jpg" class="activity-img" alt="parc-longchamp">
+        <div class="activity-info">
+          <h3>Parc longchamp</h3>
+        </div>
+      </div>
+    </a>
+  </section>
+  <!--end tablet version activities section-->
+<!--footer-->
   <footer>
 <<<<<<< HEAD
     <div class="divFooterA">
@@ -634,6 +712,7 @@
     </div>
 
   </footer>
+  <!--end footer-->
 </body>
 
 </html>
