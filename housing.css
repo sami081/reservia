@@ -327,7 +327,7 @@
     width: 80%;
     height: auto;
     margin: auto;
-    margin-block: 15px;
+   
   }
   .housing-marseille {
     width: 100%;
@@ -337,12 +337,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1500px;
   }
   .result {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+    height: 90%;
   }
   .housing-info>p{
     width: 95%;
